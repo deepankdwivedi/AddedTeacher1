@@ -1,0 +1,186 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/profileView1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:paddingTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.90"
+            android:src="@drawable/noprofileimage"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp" >
+
+        <LinearLayout
+            android:layout_width="360px"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/button_shape"
+            >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Details"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingLeft="40dp"
+                android:textColor="#ffffff"
+
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/nameView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:textSize="20sp"
+
+                android:textColor="#ffffff"
+
+                android:text="Name- Ms.Richa Verma"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+            <TextView
+                android:id="@+id/memberView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+
+                android:textColor="#ffffff"
+
+                android:text="Member Since- 26-04-2013"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/dobView5"
+                android:layout_width="wrap_content"
+                android:paddingLeft="20dp"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffffff"
+
+                android:text="Date Of Birth- 23-01-1985"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/univView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+
+                android:textColor="#ffffff"
+
+                android:text="University- Lucknow University"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360px"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:paddingBottom="20dp"
+            android:background="@drawable/address_design"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/addressView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="House No.- 23"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360px"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@drawable/contact_design"
+            android:layout_marginLeft="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginRight="40dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Info"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/mail1View13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_richav_gmail_com"
+                android:textColor="#ffffff"
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/phnView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ring_me_at_9787656554"
+                android:textColor="#ffffff"
+                android:paddingLeft="20dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:padding="16dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/classNameTextView"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:padding="3dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:padding="3dp"
+        android:text="TextView"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:id="@+id/absentTeacherTextView"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lecture"
+        android:text="TextView"
+        android:layout_weight="1"
+        android:padding="3dp"
+        style="@style/TextAppearance.AppCompat.Large"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:id="@+id/confirmSubstitutionButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:id="@+id/cancelSubstitutionButton"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Assignment"
+        android:id="@+id/viewassignment"
+        android:gravity="center"
+        android:padding="7dp"
+        android:background="@drawable/button_design"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_alignLeft="@+id/createAssignment"
+        android:layout_alignStart="@+id/createAssignment"
+        android:layout_marginTop="158dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Assignment"
+        android:padding="7dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/createAssignment"
+        android:gravity="center"
+        android:background="@drawable/button_design"
+        android:layout_below="@+id/viewassignment"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

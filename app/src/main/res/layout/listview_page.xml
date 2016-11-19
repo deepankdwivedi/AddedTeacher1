@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/headingStrip"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="#000"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:text="Class"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="#000"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:text="Subject"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="#000"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:text="Assignment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_below="@+id/headingStrip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/listView" />
+
+
+</RelativeLayout>

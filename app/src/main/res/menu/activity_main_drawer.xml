@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Home" />
+        <item
+            android:id="@+id/studentAttendance"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Student Attendance" />
+        <item
+            android:id="@+id/studentAttendanceCalendar"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="View Student Attendance " />
+        <item
+            android:id="@+id/selfAttendance"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Self Attendance" />
+        <item
+            android:id="@+id/teacherTimeTable"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="TeacherTimeTable" />
+        <item
+            android:id="@+id/lecturePlan"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Lecture Plan"
+            />
+        <item
+            android:id="@+id/currentLectureStatus"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="My Current Lecture" />
+
+        <item
+            android:id="@+id/virtualPresence"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Virtual Presence" />
+
+        <item android:id="@+id/substitution"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Your Substitution"/>
+
+        <item
+            android:id="@+id/viewCircular"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="View Circular" />
+
+        <item
+            android:id="@+id/assignment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Assignment" />
+        <item
+            android:id="@+id/test"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Test" />
+
+
+        <item
+            android:id="@+id/newsAndNotice"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="News and Notice" />
+        <item
+            android:id="@+id/notesSharing"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Notes Sharing" />
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Update" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="About" />
+
+
+    </group>
+
+
+</menu>

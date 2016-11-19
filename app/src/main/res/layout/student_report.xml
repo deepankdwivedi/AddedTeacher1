@@ -1,0 +1,350 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="2dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/teacherNameTextView"
+                android:text="Najmul Hasan"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="2dp" >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Class V-B"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="2dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Maths-"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Profit and Loss "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="280dp"
+            android:orientation="horizontal" >
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Level of understanding"
+                android:rotation="270"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textStyle="bold"/>
+-->             
+            <CustomViews.VerticalLabelView
+                app:text="Level Of Undertstanding"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                app:textSize="15sp"
+
+                android:layout_gravity="center_vertical"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="100%"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.13"
+                    android:gravity="bottom"
+                    android:text="75%" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.13"
+                    android:gravity="bottom"
+                    android:text="50%" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.13"
+                    android:gravity="bottom"
+                    android:text="25%" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:layout_weight="0.13"
+                    android:text="0%" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/llll"
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:scrollbars="horizontal"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:fillViewport="false">
+
+                <LinearLayout
+                    android:id="@+id/lll"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <View
+                        android:id="@+id/viewContainer"
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp"
+                        android:background="#000" />
+
+                    <View
+                        android:id="@+id/viewContainer2"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp" />
+
+                    <View
+                        android:id="@+id/viewContainer3"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp" />
+
+                    <View
+                        android:id="@+id/viewContainer4"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp" />
+
+                    <View
+                        android:id="@+id/viewContainer5"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <View
+                        android:id="@+id/viewContainer6"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp" />
+
+                    <View
+                        android:id="@+id/viewContainer7"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <View
+                        android:id="@+id/viewContainer8"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp" />
+
+                    <View
+                        android:id="@+id/viewContainer9"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp" />
+
+                    <View
+                        android:id="@+id/viewContainer10"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp" />
+
+                    <View
+                        android:id="@+id/viewContainer11"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp" />
+
+                    <View
+                        android:id="@+id/viewContainer12"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp" />
+
+                    <View
+                        android:id="@+id/viewContainer13"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp" />
+
+                    <View
+                        android:id="@+id/viewContainer14"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp" />
+
+                    <View
+                        android:id="@+id/viewContainer15"
+                        android:layout_width="60dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="#ffa700"
+                        android:padding="5dp"
+                        android:text="Profit"
+                        android:textSize="15dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#fff"
+                         />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="#008744"
+                        android:padding="5dp"
+                        android:text="Loss"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="#0057e7"
+                        android:padding="5dp"
+                        android:text="Overheads"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="#d62d20"
+                        android:padding="5dp"
+                        android:text="To find S.P,when\r\nC.P and Profit/Loss\r\n% is given"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="#808000"
+                        android:padding="5dp"
+                        android:text="To find C.P,when\r\nS.P and Profit/Loss\r\n% is given"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="#800000"
+                        android:padding="5dp"
+                        android:text="Discount"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            style="@android:style/TextAppearance.DeviceDefault.Medium"
+
+            android:text="Topics"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="Please Click on any topic bar to know the corrective measures"/>
+    </LinearLayout>
+
+</RelativeLayout>

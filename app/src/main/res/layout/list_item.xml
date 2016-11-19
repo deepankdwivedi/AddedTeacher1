@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:background="#f8f8f8">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/i"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:src="@mipmap/school" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="SPORTS DAY"
+
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="Venue is Main ground"
+
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="timmings are from 1pm to 5 pm"
+
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"        android:layout_height="match_parent"
+
+        android:text="Description"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+
+        />
+
+
+
+
+
+</LinearLayout>
